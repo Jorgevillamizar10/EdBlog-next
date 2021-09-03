@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import fetch from 'node-fetch'
+import Comments from '../../components/blog/Comments'
 
 export default function PostBlog({ post }) {
   return (
@@ -13,6 +14,7 @@ export default function PostBlog({ post }) {
           <p>{post.body}</p>
         </div>
       </main>
+      <Comments id={post.id}/>
     </div>
   )
 }

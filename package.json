@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "ed-grid": "^3.0.2",
     "edteam-style-guides": "0.0.80",
     "next": "11.1.2",
+    "next-seo": "^4.26.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "^1.39.0"
